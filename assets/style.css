@@ -16,6 +16,10 @@ body{
     gap: 5px;
 
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .logo{
     height: 50px;
     width: 50px;
@@ -34,4 +38,71 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     text-indent: 20px;
+}
+.tool-pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #fff;
+    margin: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.tool-card{
+    display: flex;
+    color: #fff;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 250px;
+    cursor: pointer;
+}
+.Btn{
+    padding: 10px 40px;
+    margin: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    box-shadow: 0 0 10px #000;
+}
+.goto-container{
+    height: 1rem;
+    width: 10rem;
+    padding: 10px;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: .5s;
+}
+.goto{
+    color: #fff;
+    text-decoration: none;
+}
+.download-container{
+    height: 1rem;
+    width: 10rem;
+    padding: 10px;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: .5s;
+}
+.download-container:hover{
+    box-shadow: 0 0 10px #26ff00;
+}
+.goto-container:hover{
+    box-shadow: 0 0 10px #26ff00;
+}
+.download{
+    color: #fff;
+    text-decoration: none;
+}
+.tool-name{
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
