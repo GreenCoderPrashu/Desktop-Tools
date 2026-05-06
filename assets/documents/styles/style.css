@@ -43,7 +43,8 @@ a{
     height: 100px;
     width: 100px;
     border-radius: 20px;
-    box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #03eaea;
+    box-shadow: 0 0 20px #03eaea;
     margin: 20px;
 }
 img{
