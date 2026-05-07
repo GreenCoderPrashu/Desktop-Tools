@@ -76,36 +76,44 @@ img{
     width: 10rem;
     padding: 10px;
     box-shadow: 0 0 10px #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 50px;
     transition: .5s;
 }
 .goto{
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
 }
 .download-container{
     height: 1rem;
     width: 10rem;
     padding: 10px;
     box-shadow: 0 0 10px #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 50px;
     transition: .5s;
 }
 .download-container:hover{
-    box-shadow: 0 0 10px #26ff00;
+    box-shadow: 0 0 10px #03eaea;
+    box-shadow: 0 0 20px #03eaea;
+    background: #000;
+    
 }
 .goto-container:hover{
-    box-shadow: 0 0 10px #26ff00;
+    box-shadow: 0 0 10px #03eaea;
+    box-shadow: 0 0 20px #03eaea;
+    background: #000;
 }
 .download{
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
 }
 .tool-name{
+    font-size: 30px;
     margin-top: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Home Page */
