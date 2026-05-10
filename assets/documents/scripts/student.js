@@ -27,7 +27,7 @@ const allTools = [
 {name:"PhET Simulations",img:"",website:"",download:"404.html"},
 {name:"Adobe Scan",img:"",website:"",download:"404.html"},
 {name:"Small PDF",img:"",website:"",download:"404.html"},
-{name:"Pomofocus",img:"",website:"",download:"404.html"},
+{name:"Pomofocus",img:"",website:"",download:"404.html"}
 ];
 
 //
