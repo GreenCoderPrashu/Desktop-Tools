@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 780px){
 .home-logo{
     height: 50px;
     width: 50px;
@@ -54,5 +54,63 @@ img{
     border-radius: 15px;
     left: 35%;
     font-weight: 400;
+}
+}
+@media (min-width: 780px) and (max-width:2000px){
+.home-logo{
+    height: 50px;
+    width: 50px;
+}
+.title-bar h1{
+    font-size: 25px;
+    padding: 10px;
+}
+.tools-list h1{
+    font-size: 20px;
+}
+.list-Btn{
+    padding: 15px 40px;
+}
+.tool-card{
+    margin: 20px 100px;
+    gap: 5px;
+}
+.tool-pic{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+.tool-name{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.goto-container{
+    height: 1rem;
+    width: 6rem;
+    padding: 8px;
+    margin-top: 30px;
+}
+.goto{
+    font-size: 14px;
+}
+.download-container{
+    height: 1rem;
+    width: 6rem;
+    padding: 8px;
+    margin-top: 30px;
+}
+.download{
+    font-size: 14px;
+}
+.Btn{
+    padding: 10px 40px;
+    border-radius: 15px;
+    left: 40%;
+    font-weight: 600;
 }
 }
